@@ -1,0 +1,6 @@
+.env
+local.db
+
+out/
+target/
+node_modules/

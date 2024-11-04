@@ -1,0 +1,23 @@
+{
+  "name": "repro",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "author": "Samuel Corsi-House <chouse.samuel@gmail.com",
+  "scripts": {
+    "build": "tsc --noEmit && tsup-node",
+    "check": "biome check ."
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "^22.8.7",
+    "resolve-tspaths": "^0.8.22",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.12.3"
+}
